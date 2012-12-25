@@ -1,0 +1,75 @@
+<zippl version="0.1">
+  <meta>
+    <title>A test Zippl presentation</title>
+    <description>This demonstration shows what Zippl can do for you</description>
+    <date>2010-05-21</date>
+    <author>
+      <name>Klaas Freitag</name>
+      <email>freitag@suse.de</email>
+    </author>
+  </meta>
+  <presentation width="10000" height="20000" path="/usr/share/zippl">
+    
+    <spot x="-2000" y="0" width="500" height="300" backgroundcolor="#ffffff">
+      <tocentry>A Greeting Page</tocentry>
+      <image x="15" y="15">images/zippl_logo.png</image>
+      <text x="220" y="165" font="Helvetica" size="50">Demo</text>
+      <text x="20" y="254">a lightweigt presentation tool.</text>
+      <text x="20" y="270" size="25">Discover what you can do with Zippl!  </text>
+      <text x="20" y="320">Klaas Freitag &lt;freitag@suse.de&gt;</text>
+    </spot>
+
+    <spot x="1000" y="0">
+      <tocentry>Sequences</tocentry>
+      <image x="5" y="45">images/sequence.png</image>
+      <text x="30" y="15">All presentation spots lie around on a huge</text>
+      <text x="130" y="15" size="60">canvas</text>
+      <text x="30" y="320">and the presenter moves through them.</text>
+      <hidden>
+	<circle x="21" y="215" r="20" linewidth="7" color="#f5ae54"/>
+	<text x="31" y="180" size="20">1</text>
+      </hidden>
+      <hidden>
+        <circle x="87" y="270" r="20" linewidth="7" color="#f5ae54"/>
+        <text x="66" y="280" size="20">2</text>
+      </hidden>
+      <hidden>
+        <circle x="194" y="123" r="20" linewidth="7" color="#f5ae54"/>
+        <text x="170" y="128" size="20">3</text>
+      </hidden>
+    </spot>
+
+    <spot x="0" y="4000">
+      <tocentry>Geometrics</tocentry>
+      <circle x="350" y="190" r="22" linewidth="4" color="#afafaf"/>
+      <rect x="370" y="220" width="80" height="44" color="#efefef"/>
+      <text x="300" y="85">Spots can contain geometric forms:</text>
+      <text x="300" y="108" size="24">Rectangles</text>
+      <text x="300" y="140" size="24">Circles</text>
+      <image x="5" y="0">images/geometric.png</image>
+    </spot>
+
+    <spot x="1000" y="4000">
+      <tocentry>Fonts</tocentry>
+      <text x="0" y="10" font="Helvetica" >Text of course</text>
+      <text x="0" y="40" font="Times">Of course Text</text>
+      <text x="0" y="70" font="Trebuchet" size="30">And Text</text>
+      <text x="0" y="90" font="WingDings" size="80" color="#aa3322" linewidth="4">also huge Text</text>
+    </spot>
+
+    <spot x="0" y="-6000">
+     <tocentry>Images</tocentry>
+     <text x="0" y="4" size="32">And of course images!</text>
+     <image x="10" y="58">images/bea.jpg</image>
+     <circle x="36" y="125" r="12"/>
+    </spot>
+    
+    <spot x="3000" y="-4500">
+      <tocentry>Thanks!</tocentry>
+      <text x="440" y="5" size="66" color="#d19c10">Thanks!</text>
+      <text x="10" y="65" size="20">Zippl is just a proof of concept yet!</text>
+      <text x="10" y="100" size="20">Find the code in playground/office of KDE.</text>
+      <text x="10" y="140" size="20" color="#669900">Send Feedback to Klaas Freitag &lt;freitag@suse.de&gt;</text>
+    </spot>
+  </presentation>
+</zippl>
